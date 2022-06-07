@@ -4,15 +4,24 @@ body{
 }
 h1{
     font-size: 40px;
+}
+
+.first-heading{
     border-left: 5px solid coral;
     padding-left: 10px;
 }
-section{
+
+.first-section{
     display: flex;
+    margin: 10px;
+}
+.orange-color{
+    color: orange;
 }
 .my-intro{
-    width: 50%%;
-    margin-left: 5%;
+    padding-top: 7%;
+    width: 50%;
+    margin-left: 10%;
     
 }
 .link-button{
@@ -25,7 +34,41 @@ section{
     margin-bottom: 10px;
 }
 .my-image{
-    width: 100%;
+    width: 50%;
     padding-left: 10%;
+}
+.second-heading{
+    text-align: center;
+}
+.second-section{
+    display: flex;
+}
+
+.mission{
+    background-color:cadetblue;
+    margin-left: 10%;
+    padding-left: 20px;
     padding-right: 20px;
+    border-radius: 30px;
+}
+.vision{
+    background-color:lightcoral;
+    margin-left: 25px;
+    padding-left: 25px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+.goal{
+    background-color:bisque;
+    margin-left: 25px;
+    margin-right: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+.written-part{
+    text-align: left;
+}
+.my-mission{
+    margin-bottom: 10px;
 }
